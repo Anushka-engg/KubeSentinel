@@ -1,4 +1,4 @@
-# test-infra
+# KubeSentinel
 
 [![GoDoc](https://godoc.org/k8s.io/test-infra?status.svg)](https://godoc.org/k8s.io/test-infra)
 [![Build status](https://prow.k8s.io/badge.svg?jobs=ci-test-infra-continuous-test)](https://testgrid.k8s.io/sig-testing-misc#continuous)
@@ -48,22 +48,3 @@ after they have been reviewed. All job configs are located in [`config/jobs`]
 - [`metrics`](/metrics) runs queries against bigquery to generate metrics based on test results
 - [`robots/commenter`](/robots/commenter) is used by some of our jobs to comment on GitHub issues
 
-## Contributing
-
-Please see [CONTRIBUTING.MD](CONTRIBUTING.md)
-
-[test-infra oncall]: https://go.k8s.io/oncall
-[@k8s-ci-robot]: (https://github.com/k8s-ci-robot)
-[#13063]: https://github.com/kubernetes/test-infra/issues/13063
-[prow.k8s.io]: https://prow.k8s.io
-[kubernetes/kubernetes]: https://github.com/kubernetes/kubernetes
-
-[bot commands]: https://prow.k8s.io/command-help
-[`config/jobs`]: /config/jobs
-[`metrics`]: /metrics
-[`prow`]: https://github.com/kubernetes-sigs/prow
-[`prow/cmd/tide`]: https://github.com/kubernetes-sigs/prow/tree/main/cmd/tide
-[`prow/cmd/deck`]: https://github.com/kubernetes-sigs/prow/tree/main/cmd/deck
-[`testgrid`]: /testgrid
-[testgrid.k8s.io]: https://testgrid.k8s.io
-[`triage`]: /triage
